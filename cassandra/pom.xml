@@ -18,6 +18,11 @@
        <version>${cassandra.version}</version>
      </dependency>
      <dependency>
+       <groupId>com.datastax.cassandra</groupId>
+       <artifactId>cassandra-driver-core</artifactId>
+       <version>${cassandraDriver.version}</version>
+     </dependency>
+     <dependency>
        <groupId>com.yahoo.ycsb</groupId>
        <artifactId>core</artifactId>
        <version>${project.version}</version>
