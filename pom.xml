@@ -68,6 +68,7 @@
     <module>hypertable</module>
     <module>accumulo</module>
     <module>dynamodb</module>
+    <module>couchdb</module>
     <module>elasticsearch</module>
     <!--<module>gemfire</module>-->
     <module>infinispan</module>
