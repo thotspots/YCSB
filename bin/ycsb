@@ -26,7 +26,8 @@ COMMANDS = {
 DATABASES = {
     "accumulo"     : "com.yahoo.ycsb.db.AccumuloClient",
     "basic"        : "com.yahoo.ycsb.BasicDB",
-    "cassandra" : "com.yahoo.ycsb.db.CassandraClient20",
+    "cassandra"    : "com.yahoo.ycsb.db.CassandraClient20",
+    "couchdb"      : "com.yahoo.ycsb.db.CouchdbClient",
     "dynamodb"     : "com.yahoo.ycsb.db.DynamoDBClient",
     "elasticsearch": "com.yahoo.ycsb.db.ElasticSearchClient",
     "gemfire"      : "com.yahoo.ycsb.db.GemFireClient",

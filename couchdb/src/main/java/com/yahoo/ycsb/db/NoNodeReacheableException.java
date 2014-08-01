@@ -1,4 +1,4 @@
-package couchdbBinding.java;
+package com.yahoo.ycsb.db;
 
 public class NoNodeReacheableException extends RuntimeException {
 

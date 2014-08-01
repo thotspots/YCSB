@@ -1,4 +1,4 @@
-package couchdbBinding.java;
+package com.yahoo.ycsb.db;
 
 import java.io.InputStream;
 import java.net.URL;
@@ -255,7 +255,7 @@ public class LoadBalancedConnector implements CouchDbConnector{
 		throw new UnsupportedOperationException("not implemented");
 	}
 
-	@Override
+	
 	public String getCurrentRevision(String id) {
 		throw new UnsupportedOperationException("not implemented");
 	}
